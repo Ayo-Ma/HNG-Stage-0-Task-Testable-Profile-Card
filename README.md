@@ -6,7 +6,7 @@ This project was designed to meet the **Stage 0  Testable Card** requirements
 ------
 
 ## Live Demo 
-link: [View-Live-on-Netlify](https://hng-stage-0-task-testable-profile-c.vercel.app/)
+link: [View-Live-on-Vercel](https://hng-stage-0-task-testable-profile-c.vercel.app/)
 
 
 ## Project Overview
