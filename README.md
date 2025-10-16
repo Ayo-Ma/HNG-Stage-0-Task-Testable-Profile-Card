@@ -27,14 +27,14 @@ Each visible element has a specific `data-testid` attribute:
 
 
 
-Profile Card Container  `test-profile-card` 
-User Name :--- `test-user-name` 
-Biography :---  `test-user-bio` 
-Current Time :---  `test-user-time` 
-Avatar Image :---  `test-user-avatar` 
-Social Links Container :---  `test-user-social-links`
-Hobby List :--- `test-user-hobbies` 
-Dislike List :--- `test-user-dislikes`
+- **Profile Card Container:** `test-profile-card`
+- **User Name:** `test-user-name`
+- **Biography:** `test-user-bio`
+- **Current Time:** `test-user-time`
+- **Avatar Image:** `test-user-avatar`
+- **Social Links Container:** `test-user-social-links`
+- **Hobby List:** `test-user-hobbies`
+- **Dislike List:** `test-user-dislikes`
 
 #### According to requirement from the Slack-Community
 
