@@ -1,14 +1,11 @@
-/* Poppins from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-/* CSS RESET */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* Brand Styles */
 :root {
   --primary-color: #0e0e0e;
   --secondary-color: #1a1a1a;
@@ -20,8 +17,6 @@ html {
   font-size: 100%;
   min-height: 100vh;
 }
-
-
 
 body {
   font-family: "Poppins", sans-serif;
@@ -45,18 +40,37 @@ a {
   text-decoration: none;
 }
 
-p{
+p {
   font-size: 1rem;
   font-weight: 300;
 }
 
 .header {
-  padding: 1.2rem 0;
-
+  padding: 1.2rem 2rem;
+  display: flex;
   margin-bottom: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
   background-color: var(--primary-color);
   border-bottom: 1px solid #ffffff4b;
+}
+
+
+.nav-links{
+  display: flex;
+  gap: 1.5rem;
+
+
+  li a{
+    color: var(--text-muted);
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover{
+      color: var(--accent-color);
+    }
+  }
 }
 .card {
   margin: 0 auto;
@@ -178,7 +192,7 @@ p{
 .sr-only {
   color: var(--text-muted);
   font-weight: 300;
-  font-size:14px;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -211,10 +225,9 @@ p{
 .card-avatar {
   position: relative;
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: column;
   gap: 12px;
-
 }
 
 @media (min-width: 700px) {
@@ -233,5 +246,13 @@ p{
     padding-right: 1.5rem;
     margin-right: 1.5rem;
     height: 100%;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
   }
 }

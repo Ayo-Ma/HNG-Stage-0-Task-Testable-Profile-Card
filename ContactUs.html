@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://images.unsplash.com/photo-1619452220963-4da4e145aba9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmxhY2ttYW4lMjBhdmF0YXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1200"
+      type="image/x-icon"
+    />
+
+    <script defer src="contact.js"></script>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact us Page</title>
+  </head>
+  <body>
+    <header data-testid="test-header" class="header">
+      <h1 data-testid="test-header-title">Testable Profile Card</h1>
+     <nav role="navigation" data-testid="text-user-navigation">
+        <ul class="nav-links" data-testid="text-user-navigation-list">
+          <li><a href="index.html" class="links">Profile Card</a></li>
+          <li><a href="ContactUs.html" class="links">Contact Us Page</a></li>
+          <li><a href="AboutMe.html" class="links">About Me Page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main data-testid="test-main">
+      <form id="contactForm">
+        <h2 class="form-head" data-testid="test-main-form-title">Contact Us</h2>
+        <label for="name">FullName
+           <input
+          type="text"
+          id="name"
+          name="full_name"
+          
+          data-testid="test-contact-name"
+        />
+        <small id="error-name" data-testid="test-contact-error-name" aria-live="polite"></small>
+        </label>
+       
+
+
+        <label for="email">Email
+           <input type="email" data-testid="test-contact-email" id="email" name="email" >
+        <small id="error-email" data-testid="test-contact-error-email" aria-live="polite"></small>
+        </label>
+       
+
+        <label for="subject">Subject
+           <input type="text" name="subject" id="subject" data-testid="test-contact-subject" >
+        <small id="error-subject" data-testid="test-contact-error-subject" aria-live="polite"></small>
+        </label>
+       
+
+        <label for="message">Message
+         <textarea name="message" id="message" data-testid="test-contact-message" minlength="10" rows="10"  ></textarea>
+        <small id="error-message" data-testid="test-contact-error-message" aria-live="polite"></small>
+
+        </label>
+       
+        <button data-testid="test-contact-submit" type="submit" id="submit-btn">Send Message</button>
+  <p id="success" data-testid="test-contact-success" hidden>✅ Message sent successfully!</p>
+      </form>
+    </main>
+  </body>
+</html>
