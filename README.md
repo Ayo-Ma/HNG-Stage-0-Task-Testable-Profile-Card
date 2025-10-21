@@ -11,6 +11,8 @@ link: [View-Live-on-Netlify]()
 
 ## Project Overview
 
+## Stage 0
+
 The **Profile Card** is a small card component displaying 
 
 - The user’s avatar  
@@ -52,8 +54,61 @@ Each visible element has a specific `data-testid` attribute:
 ## 📸 Screenshot
 ![Profile-Card-Preview-Mobile](./images/mobileView.png)
 ![Profile-Card-Preview-Desktop](./images/DesktopView.png)
+![About-Me-Preview-Mobile](./images/About%20Me%20Mobile.png)
+![Profile-About-Me-Preview-Desktop](./images/About%20Me%20Page%20View.png)
+![Profile-Contact-Page-Mobile](./images/Contact%20Page%20Mobile.png)
+![Profile-Contact-Preview-Desktop](./images/Contact%20Page%20View.png)
 
 ------------------------------------------------------------
+
+## Stage 1
+
+# 🌐 Stage 1 Frontend Project — Contact & About Pages
+
+Welcome to my Stage 1 HNG program 🚀  
+This project builds upon the 0 Task , that was done before, it features two new extra pages *Contact Us page* and an *About Me page*.
+
+---
+
+
+## 📄 Pages Included
+
+### 📨 Contact Us Page
+A responsive and accessible contact form with full validation and success feedback.
+
+*Form Fields (with `data-testid`s):*
+- Full Name — test-contact-name
+- Email — test-contact-email
+- Subject — test-contact-subject
+- Message — test-contact-message
+- Submit Button — test-contact-submit
+- Error Messages — test-contact-error-<field>
+- Success Message — test-contact-success
+
+
+---
+
+### 👩‍💻 About Me Page
+A reflective page with proper semantic sections, built to highlight my learning goals and mindset.
+
+*Sections (with `data-testid`s):*
+- Bio — test-about-bio
+- Goals in this Program — test-about-goals
+- Areas of Low Confidence — test-about-confidence
+- Note to Future Me — test-about-future-note
+- Extra Thoughts — test-about-extra
+
+---
+
+## 🧠 Tech Stack
+
+- *HTML5* — Semantic and accessible structure  
+- *CSS3* — Modern, responsive layout (Airbnb-inspired design)  
+- *JavaScript (Vanilla)* — Form validation and interactivity  
+
+---
+
+
 
 ## How to Run Locally
 1. Clone the repository 
@@ -68,3 +123,6 @@ Each visible element has a specific `data-testid` attribute:
 
 3. Open index.html in your browser
     🥳 And that's all.
+
+
+
